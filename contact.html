@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Gaurav Tuition Centre for enrollment inquiries, schedule information, or any questions about our educational services.">
+    <title>Contact Us - Gaurav Tuition Centre</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Gaurav Tuition Centre</h1>
+                <p>Nurturing minds, Building futures</p>
+            </div>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="testimonials.html">Success Stories</a></li>
+                    <li><a href="contact.html" class="active btn-contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars" id="menu-icon"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in touch with us for inquiries, enrollment, or to schedule a free consultation</p>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="contact-information">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-details">
+                    <h2>Get In Touch</h2>
+                    <p>We'd love to hear from you. Feel free to reach out with any questions or to schedule a visit to our centre.</p>
+                    
+                    <div class="contact-info-list">
+                        <div class="contact-info-item">
+                            <div class="icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="details">
+                                <h3>Address</h3>
+                                <p>123 Education Street, Academic Colony<br>City, State - 123456</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <div class="icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="details">
+                                <h3>Phone</h3>
+                                <p>+91 9876543210<br>+91 9876543211</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <div class="icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="details">
+                                <h3>Email</h3>
+                                <p>info@gauravtuition.com<br>admissions@gauravtuition.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-info-item">
+                            <div class="icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="details">
+                                <h3>Office Hours</h3>
+                                <p>Monday - Saturday: 9:00 AM - 8:00 PM<br>Sunday: 10:00 AM - 2:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-connect">
+                        <h3>Connect With Us</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                            <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <h2>Send Us a Message</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Full Name*</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address*</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number*</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+                            <span class="error-message" id="phoneError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject*</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="Enrollment Inquiry">Enrollment Inquiry</option>
+                                <option value="Fee Structure">Fee Structure</option>
+                                <option value="Schedule Information">Schedule Information</option>
+                                <option value="Free Consultation">Free Consultation</option>
+                                <option value="Other">Other</option>
+                            </select>
+                            <span class="error-message" id="subjectError"></span>
+                        </div>
+                        
+                        <div class="form-group full-width">
+                            <label for="message">Message*</label>
+                            <textarea id="message" name="message" placeholder="Type your message here..." required></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+                        
+                        <div class="form-group full-width">
+                            <button type="submit" class="btn-submit">Send Message</button>
+                        </div>
+                    </form>
+                    <div id="formSuccess" class="form-success">
+                        <i class="fas fa-check-circle"></i>
+                        <p>Thank you for your message! We'll get back to you shortly.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Map -->
+    <section class="location-map">
+        <div class="container">
+            <h2 class="section-title">Find Us on the Map</h2>
+            <div class="map-placeholder">
+                <div class="map-info">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <p>We are conveniently located in the heart of the city, easily accessible by public transport.</p>
+                    <p>Our tuition centre is situated near [landmark], making it easy for students to reach us after school hours.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What is the enrollment process at Gaurav Tuition Centre?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>The enrollment process is simple. Parents or students can visit our centre, fill out the registration form, and pay the registration fee. We recommend scheduling a prior appointment for a smooth enrollment process. You can also initiate the process by filling the contact form on this website.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you offer trial classes before enrollment?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we offer a free trial class for students to experience our teaching methodology and environment before making a decision. This helps both the student and our teachers assess if the learning style is a good fit.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What is the teacher-to-student ratio in classes?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We maintain a low teacher-to-student ratio of 1:15 to ensure personalized attention for every student. In some specialized classes for board exam preparation, the ratio may be even lower at 1:10.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How do you track student progress?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We conduct regular weekly tests and monthly assessments to track student progress. Parents receive detailed progress reports monthly, and we schedule parent-teacher meetings quarterly to discuss areas of improvement and achievement.</p>
+                    </div>
+                </div>
+                
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What if my child needs to miss a class?</h3>
+                        <span class="faq-toggle"><i class="fas fa-plus"></i></span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We understand that students may occasionally need to miss classes due to illness or other commitments. We offer makeup classes or provide class notes and recordings to ensure students don't fall behind. Please inform us in advance whenever possible.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Start Your Academic Journey Today</h2>
+                <p>Visit our centre for a free consultation and see how we can help your child excel academically</p>
+                <a href="tel:+919876543210" class="btn-primary"><i class="fas fa-phone-alt"></i> Call Us Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Gaurav Tuition Centre</h3>
+                    <p>Nurturing minds, Building futures</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="courses.html">Courses</a></li>
+                        <li><a href="testimonials.html">Success Stories</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Information</h4>
+                    <ul>
+                        <li><i class="fas fa-map-marker-alt"></i> <span>123 Education Street, City</span></li>
+                        <li><i class="fas fa-phone"></i> <span>+91 9876543210</span></li>
+                        <li><i class="fas fa-envelope"></i> <span>info@gauravtuition.com</span></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Connect With Us</h4>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Gaurav Tuition Centre. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+    <script src="js/form-validation.js"></script>
+</body>
+</html>
